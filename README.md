@@ -5,7 +5,7 @@ Also included is a test /src folder and a test index.html.
 
 ### package.json
 
-This file includes all the npm packages and a number of npm scripts in order to compile Scss to Css, autoprefix the result, pack media queries together and so on
+This file includes all the npm packages (including a jQuery package included as for test purposes) and a number of npm scripts in order to compile Scss to Css, autoprefix the result, pack media queries together and so on
 
 ### webpack.config.js
 

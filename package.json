@@ -3,9 +3,12 @@
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
+  "config": {
+    "proxy": "localhost"
+  },
   "scripts": {
     "autoprefixer": "postcss -c ./postcss.json -u autoprefixer -r ./dist/css/main.css",
-    "browsersync": "browser-sync start --no-open --reload-delay 1000 --reload-debounce --proxy 'localhost/webpack-test' --files './dist/css/*.css' './dist/js/*.js' './index.html'",
+    "browsersync": "browser-sync start --no-open --reload-delay 1000 --reload-debounce --proxy $npm_package_config_proxy --files './dist/css/*.css' './dist/js/*.js' './index.html'",
     "build:css": "node-sass --output-style compressed -o ./dist/css ./src/scss/main.scss && npm run autoprefixer",
     "build:js": "webpack -p --config webpack.config.js",
     "dev": "npm run watch:all & npm run browsersync",

@@ -3,6 +3,7 @@ import './sweet-alert';
 import $ from 'jquery';
 
 document.addEventListener('DOMContentLoaded', () => {
-  app.init();
-  sweetAlert("Hello world!");
+  app.init(); // testing my custom module
+  console.log($); // testing jQuery
+  sweetAlert("Hello world!"); // testing old skool external plugin import
 });

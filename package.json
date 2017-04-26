@@ -33,6 +33,8 @@
     "path": "^0.12.7",
     "postcss": "^5.2.16",
     "postcss-cli": "^3.0.0",
+    "stylelint": "^7.10.1",
+    "stylelint-order": "^0.4.3",
     "unminified-webpack-plugin": "^1.2.0",
     "webpack": "^2.3.2"
   },

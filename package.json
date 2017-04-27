@@ -27,6 +27,7 @@
     "babel-preset-latest": "^6.24.0",
     "browser-sync": "^2.18.8",
     "css-mqpacker": "^5.0.1",
+    "eslint": "^3.19.0",
     "node-sass": "^4.5.1",
     "npm-run-all": "^4.0.2",
     "onchange": "^3.2.1",

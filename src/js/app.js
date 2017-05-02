@@ -1,12 +1,11 @@
-const app = (function(){
-  function init(){
+const app = (() => {
+  function init() {
     console.log('ue');
   }
 
   return {
-    init
-  }
-
+    init,
+  };
 })();
 
 module.exports = app;

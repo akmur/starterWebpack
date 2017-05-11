@@ -1,12 +1,34 @@
 # Build Starter Kit
 
+This is a front-end development starter kit that mainly uses **npm**, **webpack** and **browsersync**.
+
 The main content of this repository is package.json and webpack.config.js.
 Also included is a test /src folder and a test index.html.
 
-### package.json
+### How does it work
 
-This file includes all the npm packages (including a jQuery package included as for test purposes) and a number of npm scripts in order to compile Scss to Css, autoprefix the result, pack media queries together and so on
+1. Install Node on your machine
 
-### webpack.config.js
+2. Open your terminal and go to the folder containing this project, then run
 
-This file is the main webpack configuration
+    ```bash
+    npm install
+    ```
+
+3. This build kit assumes that you have a website running on localhost or similar. In package.json replace the "proxy" variable with whatever you are using (for example, localhost:3000 or site.dev or whatever you need).
+
+4. Now you have at your disposal two main npm commands:
+
+    ```bash
+    npm run dev
+    ```
+
+    which will start browsersync, compile your js and css and watch for file changes.
+
+    The command
+
+    ```bash
+    npm run dist
+    ```
+
+    will generate production files by minifying css and packing media queries and will create js source maps.

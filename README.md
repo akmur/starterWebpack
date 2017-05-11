@@ -9,6 +9,8 @@ Also included is a test /src folder and a test index.html.
 
 1. Install Node on your machine
 
+    I recommend using [NVM](https://github.com/creationix/nvm) or [nodenv](https://github.com/nodenv/nodenv), but you can also use the binaries from the [Node](https://nodejs.org/en/) website.
+
 2. Open your terminal and go to the folder containing this project, then run
 
     ```bash

@@ -1,3 +1,6 @@
+// 20170814121840
+// https://raw.githubusercontent.com/akmur/alexwp2017/master/.stylelintrc
+
 {
   "plugins": [
     "stylelint-order"
@@ -28,10 +31,18 @@
     "declaration-colon-space-before": "never",
     "declaration-empty-line-before": "never",
     "declaration-no-important": true,
-    "declaration-property-unit-blacklist": {},
-    "declaration-property-unit-whitelist": {},
-    "declaration-property-value-blacklist": {},
-    "declaration-property-value-whitelist": {},
+    "declaration-property-unit-blacklist": {
+      
+    },
+    "declaration-property-unit-whitelist": {
+      
+    },
+    "declaration-property-value-blacklist": {
+      
+    },
+    "declaration-property-value-whitelist": {
+      
+    },
     "font-family-name-quotes": "always-where-required",
     "font-family-no-duplicate-names": true,
     "font-weight-notation": "numeric",
@@ -59,7 +70,6 @@
     "media-feature-range-operator-space-before": "always",
     "media-query-list-comma-space-after": "always",
     "media-query-list-comma-space-before": "never",
-    "no-descending-specificity": true,
     "no-duplicate-selectors": true,
     "no-empty-source": true,
     "no-eol-whitespace": true,
@@ -73,10 +83,17 @@
     "property-case": "lower",
     "property-no-unknown": true,
     "property-no-vendor-prefix": true,
-    "rule-empty-line-before": ["always", {
-      "except": ["first-nested"],
-      "ignore": ["after-comment"]
-    }],
+    "rule-empty-line-before": [
+      "always",
+      {
+        "except": [
+          "first-nested"
+        ],
+        "ignore": [
+          "after-comment"
+        ]
+      }
+    ],
     "selector-attribute-brackets-space-inside": "never",
     "selector-attribute-operator-space-after": "never",
     "selector-attribute-operator-space-before": "never",
@@ -91,12 +108,11 @@
     "selector-list-comma-space-before": "never",
     "selector-max-empty-lines": 0,
     "selector-max-compound-selectors": 3,
-    "selector-max-specificity": "0,2,0",
-    "selector-no-attribute": true,
-    "selector-no-id": true,
+    "selector-max-specificity": "0,3,0",
+    "selector-max-attribute": 1,
+    "selector-max-id": 0,
     "selector-no-qualifying-type": true,
-    "selector-no-type": true,
-    "selector-no-universal": true,
+    "selector-max-type": 1,
     "selector-no-vendor-prefix": true,
     "selector-pseudo-class-case": "lower",
     "selector-pseudo-class-no-unknown": true,

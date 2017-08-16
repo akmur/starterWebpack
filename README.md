@@ -1,6 +1,6 @@
 # Build Starter Kit
 
-This is a front-end development starter kit that mainly uses **npm**, **webpack** and **browsersync**.
+This is a front-end development starter kit that uses **npm**, **webpack** and **browsersync**.
 
 The main content of this repository is package.json and webpack.config.js.
 Also included is a test /src folder and a test index.html.
@@ -25,7 +25,7 @@ Also included is a test /src folder and a test index.html.
     npm run dev
     ```
 
-    which will start browsersync, compile your js and css and watch for file changes.
+    which will start browsersync, compile your js and scss and watch for file changes.
 
     The command
 

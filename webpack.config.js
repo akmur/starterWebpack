@@ -1,6 +1,6 @@
-/* global module require __dirname */
+/* global module process */
 
-const path = require('path');
+let devToolType = process.env.NODE_ENV === 'dev' ? 'eval-source-map' : 'nosources-source-map';
 
 module.exports = {
   entry: './src/js/main.js',
@@ -18,5 +18,5 @@ module.exports = {
       }
     ]
   },
-  devtool: 'source-map'
+  devtool: devToolType
 };

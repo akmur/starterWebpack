@@ -25,7 +25,7 @@ Also included is a test /src folder and a test index.html.
     npm run dev
     ```
 
-    which will start browsersync, compile your js and scss and watch for file changes.
+    which will start browsersync, compile your js and scss, create sourcemaps and watch for file changes.
 
     The command
 
@@ -33,4 +33,4 @@ Also included is a test /src folder and a test index.html.
     npm run dist
     ```
 
-    will generate production files by minifying css and packing media queries and will create js source maps.
+    will generate production files by additionally minifying css and packing media queries, plus less detailed source maps.

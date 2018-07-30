@@ -1,6 +1,6 @@
 const app = (() => {
   function init() {
-    console.log('ue');
+    console.log('logging works');
   }
 
   return {

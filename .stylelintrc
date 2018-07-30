@@ -1,6 +1,3 @@
-// 20170814121840
-// https://raw.githubusercontent.com/akmur/alexwp2017/master/.stylelintrc
-
 {
   "plugins": [
     "stylelint-order"

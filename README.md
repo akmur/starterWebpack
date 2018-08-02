@@ -17,9 +17,7 @@ Also included is a test /src folder and a test index.html.
     npm install
     ```
 
-3. This build kit assumes that you have a website running on localhost or similar. In package.json replace the "proxy" variable with whatever you are using (for example, localhost:3000 or site.dev or whatever you need).
-
-4. Now you have at your disposal two main npm commands:
+3. Now you have at your disposal two main npm commands:
 
     ```bash
     npm run dev

@@ -1,4 +1,4 @@
-# Build Starter Kit
+# Webpack Starter Kit
 
 This is a front-end development starter kit that uses **npm**, **webpack** and **browsersync**.
 

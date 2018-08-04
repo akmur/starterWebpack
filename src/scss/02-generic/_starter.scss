@@ -1,14 +1,8 @@
-/* Sakura.css v1.0.0
- * ================
- * Minimal css theme.
- * Project: https://github.com/oxalorg/sakura
- */
-
-/* Body */
+// Taken and modified from Sakura.css https://github.com/oxalorg/sakura
 
 html {
   font-family: $serif;
-  font-size: 62.5%;
+  font-size: 62.5%; // so 1rem will equal 10px at standard zoom level
 }
 
 body {
@@ -17,7 +11,8 @@ body {
   font-size: 1.35rem;
   line-height: 1.618;
   margin: auto;
-  padding: 13px;
+  max-width: 66.667em;
+  padding: 2rem;
 
   @include phone-portrait-up {
     font-size: 1.53rem;

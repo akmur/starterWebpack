@@ -1,4 +1,16 @@
-/*! normalize.css v8.0.0 | MIT License | github.com/necolas/normalize.css */
+/*! Taken from normalize.css and modified | github.com/necolas/normalize.css */
+
+/* All
+   ========================================================================== */
+
+/**
+ * 1. Setting box model
+ */
+
+
+* {
+  box-sizing: border-box;
+}
 
 /* Document
    ========================================================================== */
@@ -22,16 +34,6 @@ html {
 
 body {
   margin: 0;
-}
-
-/**
- * Correct the font size and margin on `h1` elements within `section` and
- * `article` contexts in Chrome, Firefox, and Safari.
- */
-
-h1 {
-  font-size: 2em;
-  margin: 0.67em 0;
 }
 
 /* Grouping content

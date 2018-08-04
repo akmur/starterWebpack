@@ -1,0 +1,9 @@
+a {
+  color: get-color(blues);
+  text-decoration: none;
+}
+
+a:hover {
+  border-bottom: 2px solid get-color(greys, dark);
+  color: get-color(reds, dark);
+}

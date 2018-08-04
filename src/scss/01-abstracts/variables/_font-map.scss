@@ -1,0 +1,27 @@
+$font-map: (
+  tiny: (
+    mobile: 10px,
+    tablet: 11px,
+    desktop: 12px
+  ),
+  small: (
+    mobile: 12px,
+    tablet: 13px,
+    desktop: 14px
+  ),
+  default: (
+    mobile: 12px,
+    tablet: 14px,
+    desktop: 16px
+  ),
+  large: (
+    mobile: 16px,
+    tablet: 18px,
+    desktop: 21px
+  ),
+  big: (
+    mobile: 18px,
+    tablet: 21px,
+    desktop: 28px
+  )
+);

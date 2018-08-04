@@ -1,0 +1,47 @@
+/* Buttons, forms and input */
+
+input,
+textarea {
+  border: 1px solid get-color(greys, dark);
+}
+
+input:focus,
+textarea:focus {
+  border: 1px solid get-color(blues);
+}
+
+textarea {
+  width: 100%;
+}
+
+textarea,
+select,
+input[type] {
+  background-color: get-color(greys, light);
+  border: 1px solid get-color(greys, light);
+  border-radius: 4px;
+  box-shadow: none;
+  box-sizing: border-box;
+  color: get-color(greys, dark);
+  margin-bottom: 10px;
+  padding: 6px 10px;
+}
+
+textarea:focus,
+select:focus,
+input[type]:focus {
+  border: 1px solid get-color(blues);
+  outline: 0;
+}
+
+input[type="checkbox"]:focus {
+  outline: 1px dotted get-color(blues);
+}
+
+label,
+legend,
+fieldset {
+  display: block;
+  font-weight: 700;
+  margin-bottom: 0.5rem;
+}

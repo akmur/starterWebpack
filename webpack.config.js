@@ -1,6 +1,6 @@
 /* global module process */
 
-let devToolType = process.env.NODE_ENV === 'dev' ? 'eval-source-map' : 'nosources-source-map';
+let devToolType = process.env.NODE_ENV === 'dev' ? 'cheap-eval-source-map' : '';
 
 module.exports = {
   entry: './src/js/main.js',

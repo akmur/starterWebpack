@@ -1,0 +1,42 @@
+.button,
+button,
+input[type='submit'],
+input[type='reset'],
+input[type='button'] {
+  background-color: get-color(blues);
+  border-radius: 1px;
+  border: 1px solid get-color(blues);
+  box-sizing: border-box;
+  color: get-color(light);
+  cursor: pointer;
+  display: inline-block;
+  padding: 5px 10px;
+  text-align: center;
+  text-decoration: none;
+  white-space: nowrap;
+}
+
+.button[disabled],
+button[disabled],
+input[type='submit'][disabled],
+input[type='reset'][disabled],
+input[type='button'][disabled] {
+  cursor: default;
+  opacity: 0.5;
+}
+
+.button:focus,
+.button:hover,
+button:focus,
+button:hover,
+input[type='submit']:focus,
+input[type='submit']:hover,
+input[type='reset']:focus,
+input[type='reset']:hover,
+input[type='button']:focus,
+input[type='button']:hover {
+  background-color: get-color(reds, dark);
+  border-color: get-color(reds, dark);
+  color: get-color(light);
+  outline: 0;
+}

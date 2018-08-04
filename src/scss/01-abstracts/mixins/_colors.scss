@@ -1,0 +1,7 @@
+@function get-color($palette, $tone: 'base') {
+  @return map-get(map-get($colors, $palette), $tone);
+}
+
+@function opacize($color, $opacity: 0.3){
+  @return rgba($color, $opacity);
+}

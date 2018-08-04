@@ -1,0 +1,48 @@
+// mobile-portrait: 420px
+@mixin phone-portrait-up {
+  @media (min-width: map-get($breakpoints-map, mobile-portrait))
+  {
+    @content;
+  }
+}
+
+// mobile-landscape: 576px
+@mixin phone-landscape-up {
+  @media (min-width: map-get($breakpoints-map, mobile-landscape))
+  {
+    @content;
+  }
+}
+
+// tablet-portrait: 768px
+@mixin tablet-portrait-up {
+  @media (min-width: map-get($breakpoints-map, tablet-portrait))
+  {
+    @content;
+  }
+}
+
+// tablet-landscape: 992px
+@mixin tablet-landscape-up {
+  @media (min-width: map-get($breakpoints-map, tablet-portrait))
+  {
+    @content;
+  }
+}
+
+// desktop: 992px
+@mixin desktop-up {
+  @media (min-width: map-get($breakpoints-map, desktop))
+  {
+    @content;
+  }
+}
+
+// usage
+// .my-box {
+//   padding: 10px;
+
+//   @include desktop-up {
+//     padding: 20px;
+//   }
+// }

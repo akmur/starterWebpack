@@ -1,0 +1,33 @@
+/* Sakura.css v1.0.0
+ * ================
+ * Minimal css theme.
+ * Project: https://github.com/oxalorg/sakura
+ */
+
+/* Body */
+
+html {
+  font-family: $serif;
+  font-size: 62.5%;
+}
+
+body {
+  background-color: get-color(light);
+  color: get-color(greys, dark);
+  font-size: 1.35rem;
+  line-height: 1.618;
+  margin: auto;
+  padding: 13px;
+
+  @include phone-portrait-up {
+    font-size: 1.53rem;
+  }
+
+  @include phone-landscape-up {
+    font-size: 1.66rem;
+  }
+
+  @include tablet-landscape-up {
+    font-size: 1.8rem;
+  }
+}

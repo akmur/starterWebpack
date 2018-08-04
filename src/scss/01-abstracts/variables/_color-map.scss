@@ -1,0 +1,51 @@
+// light
+$hint-of-red: #F9F9F9;
+
+// dark
+$black: #000000;
+
+//greys
+$mercury: #e6e6e6;
+$steel: #656667;
+$armadillo: #4a4a4a;
+
+// blues
+$botticelli: #C8D8DE;
+$moonstone-blue: #76A3BA;
+$bermuda-grey: #6892a4;
+$nebula: #CBD8DD;
+
+// greens
+$hippie-green: #6C934B;
+
+// reds
+$pink-flare: #DDB6B5;
+$guardsman-red: #c60000;
+$old-brick: #981a32;
+
+$colors: (
+  dark: (
+    base: $black
+  ),
+  blues: (
+    light: $nebula,
+    base: $moonstone-blue,
+    dark: $bermuda-grey
+  ),
+  greys: (
+    light: $mercury,
+    base: $steel,
+    dark: $armadillo
+  ),
+  greens: (
+    base: $hippie-green
+  ),
+  reds: (
+    light: $pink-flare,
+    base: $guardsman-red,
+    dark: $old-brick
+  ),
+  light: (
+    base: $hint-of-red
+  )
+);

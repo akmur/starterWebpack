@@ -29,16 +29,16 @@
     "declaration-empty-line-before": "never",
     "declaration-no-important": true,
     "declaration-property-unit-blacklist": {
-      
+
     },
     "declaration-property-unit-whitelist": {
-      
+
     },
     "declaration-property-value-blacklist": {
-      
+
     },
     "declaration-property-value-whitelist": {
-      
+
     },
     "font-family-name-quotes": "always-where-required",
     "font-family-no-duplicate-names": true,
@@ -54,7 +54,7 @@
     "function-parentheses-space-inside": "never",
     "function-url-quotes": "always",
     "function-whitespace-after": "always",
-    "indentation": 4,
+    "indentation": 2,
     "keyframe-declaration-no-important": true,
     "length-zero-no-unit": true,
     "max-empty-lines": 1,
